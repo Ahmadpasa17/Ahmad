@@ -15,7 +15,7 @@ def bymonth(df):
     return month_rent
 
 # import dataframe
-day_df = pd.read_csv(pwd + 'day_data.csv')
+day_df = pd.read_csv('day_data.csv')
 
 
 # Menyiapkan dataframe yang dikelompokkan
